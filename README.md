@@ -18,6 +18,7 @@ Context Menus
 
 - MeshFilter: Save mesh.
 - RenderTexture: Save as PNG.
+- Texture2D: Save as PNG.
 - SkinnedMeshRenderer: Save baked mesh.
 
 Other
