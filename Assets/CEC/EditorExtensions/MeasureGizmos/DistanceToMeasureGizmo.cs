@@ -28,7 +28,7 @@ namespace CEC.EditorExtensions
 	[ExecuteInEditMode]
 	public class DistanceToMeasureGizmo : MeasureGizmo
 	{
-		[SerializeField] Transform _target;
+		[SerializeField] Transform _target = null;
 
 		public Transform target { get { return _target; } }
 
