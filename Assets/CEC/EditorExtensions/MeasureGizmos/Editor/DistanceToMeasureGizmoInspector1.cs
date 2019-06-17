@@ -27,7 +27,7 @@ using UnityEditor;
 namespace CEC.EditorExtensions
 {
 	[CustomEditor(typeof(DistanceToMeasureGizmo))]
-	public class DistanceToMeasureGizmoInspector : Editor
+    public class DistanceToMeasureGizmoInspector : Editor   
 	{
 		DistanceToMeasureGizmo component;
 		SerializedProperty _always;

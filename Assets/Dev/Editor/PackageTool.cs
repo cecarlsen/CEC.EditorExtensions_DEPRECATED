@@ -7,5 +7,6 @@ public class PackageTool
     static void UpdatePackage()
     {
 		AssetDatabase.ExportPackage( "Assets/CEC/EditorExtensions", "CEC.EditorExtensions.unitypackage", ExportPackageOptions.Recurse );
+        Debug.Log( "Exported package!" );
     }
 }

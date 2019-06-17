@@ -70,6 +70,7 @@ namespace CEC.EditorExtensions
 		static void DrawLabels( Bounds bounds )
 		{
 			if( bounds.size == Vector3.zero ) return;
+
 			Handles.Label( bounds.min + ( Vector3.right * bounds.extents.x ), bounds.size.x.ToString("F2") + "m" );
 			Handles.Label( bounds.min + ( Vector3.up * bounds.extents.y ), bounds.size.y.ToString("F2") + "m" );
 			Handles.Label( bounds.min + ( Vector3.forward * bounds.extents.z ), bounds.size.z.ToString("F2") + "m" );
