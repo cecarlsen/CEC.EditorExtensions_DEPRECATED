@@ -2,7 +2,7 @@ EditorExtensions
 ===============
 
 Minor editor extensions for Unity3D.  
-Updated for Unity 2018.3.
+Updated for Unity 2019.3.3
 
 
 Features
@@ -17,7 +17,6 @@ Top Menu
 Context Menus
 
 - MeshFilter: Save mesh.
-- RenderTexture: Save as PNG or JPG.
 - Texture2D: Save as PNG.
 - SkinnedMeshRenderer: Save baked mesh.
 
