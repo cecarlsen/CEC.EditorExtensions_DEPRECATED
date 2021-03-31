@@ -1,0 +1,224 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/CarlEmail/Work/UnityRepos/EditorExtensions
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54275
+Successfully changed project path to: /Users/CarlEmail/Work/UnityRepos/EditorExtensions
+/Users/CarlEmail/Work/UnityRepos/EditorExtensions
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 20.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/CarlEmail/Work/UnityRepos/EditorExtensions/Assets
+GfxDevice: creating device client; threaded=0
+2021-03-31 10:18:43.915 Unity[95378:1309544] Color LCD preferred device: NVIDIA GeForce GT 650M (high power)
+2021-03-31 10:18:43.915 Unity[95378:1309544] Metal devices available: 2
+2021-03-31 10:18:43.915 Unity[95378:1309544] 0: NVIDIA GeForce GT 650M (high power)
+2021-03-31 10:18:43.915 Unity[95378:1309544] 1: Intel HD Graphics 4000 (low power)
+2021-03-31 10:18:43.916 Unity[95378:1309544] Using device NVIDIA GeForce GT 650M (high power)
+Initializing Metal device caps: NVIDIA GeForce GT 650M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56378
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000909 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 19.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.959 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000366 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.187 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 533 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 85.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 977.
+Total: 1.724688 ms (FindLiveObjects: 0.113070 ms CreateObjectMapping: 0.021040 ms MarkObjects: 1.514136 ms  DeleteObjects: 0.074944 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/CEC/EditorExtensions
+  artifactKey: Guid(74b41efcb8ef34fd794d67f607dc6440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CEC/EditorExtensions using Guid(74b41efcb8ef34fd794d67f607dc6440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9775fff3052737bc92ac0549cdea92b2') in 0.003222 seconds
+  Import took 0.004380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/CEC/EditorExtensions/CHANGELOG.md
+  artifactKey: Guid(c2de7fe5fb06ff740a2df5011b79f25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CEC/EditorExtensions/CHANGELOG.md using Guid(c2de7fe5fb06ff740a2df5011b79f25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed809c8c4c340b84d1ff3199fe8d654') in 2.490548 seconds
+  Import took 2.491660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42baae205c97e3337697759514652acd') in 0.000858 seconds
+  Import took 0.001676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.807524 seconds.
+  path: Assets/CEC/EditorExtensions/Editor/SkinnedMeshRendererSaveMesh
+  artifactKey: Guid(d64dbfa535a6b42309a88c82bd853a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CEC/EditorExtensions/Editor/SkinnedMeshRendererSaveMesh using Guid(d64dbfa535a6b42309a88c82bd853a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f63a87e0fab0e31a243c24b8b0d3616') in 0.001352 seconds
+  Import took 0.002796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001452 seconds.
+  path: Assets/CEC/EditorExtensions/Editor/TransformCopyPasteRecursive
+  artifactKey: Guid(62f4b9292841b43f784f689ae33c1e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CEC/EditorExtensions/Editor/TransformCopyPasteRecursive using Guid(62f4b9292841b43f784f689ae33c1e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3164a1ac2d1e983c4e6fb05934327430') in 0.000928 seconds
+  Import took 0.002013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001360 seconds.
+  path: Assets/CEC/EditorExtensions/Editor/MeshFiltersCombine
+  artifactKey: Guid(a528d1e6a9be54e9599cdbfb5e2fe7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CEC/EditorExtensions/Editor/MeshFiltersCombine using Guid(a528d1e6a9be54e9599cdbfb5e2fe7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9c4bc34afaf84dab01bbcc2610a1d9') in 0.000864 seconds
+  Import took 0.001821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001657 seconds.
+  path: Assets/CEC/EditorExtensions/Editor/ScreenShot/ScreenshotMenuItem.cs
+  artifactKey: Guid(042d2d59b78ec4b70a573158b43b98c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CEC/EditorExtensions/Editor/ScreenShot/ScreenshotMenuItem.cs using Guid(042d2d59b78ec4b70a573158b43b98c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4aec2ceef4370f8f23df90cb2a31931') in 0.479142 seconds
+  Import took 0.480279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001665 seconds.
+  path: Assets/CEC/EditorExtensions/Editor/ScreenShot
+  artifactKey: Guid(d6904c802427e428c991c56822136def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CEC/EditorExtensions/Editor/ScreenShot using Guid(d6904c802427e428c991c56822136def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53559b875e736f2f2015da3cab232ab') in 0.001045 seconds
+  Import took 0.002376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002388 seconds.
+  path: Assets/CEC/EditorExtensions/ScreenShot
+  artifactKey: Guid(8126e3b60dc5a4583a58b193de71eae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CEC/EditorExtensions/ScreenShot using Guid(8126e3b60dc5a4583a58b193de71eae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e141d52b9b3ed3f5b7a7316a6689348') in 0.000923 seconds
+  Import took 0.001947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001414 seconds.
+  path: Assets/CEC/EditorExtensions/Editor/Texture2DSavePNG
+  artifactKey: Guid(645777a2ba9215548a36eeab706d9715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CEC/EditorExtensions/Editor/Texture2DSavePNG using Guid(645777a2ba9215548a36eeab706d9715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fabfc33e1268842c449da1a33aba975') in 0.000832 seconds
+  Import took 0.001723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001768 seconds.
+  path: Assets/CEC/EditorExtensions/LICENSE.md
+  artifactKey: Guid(30ec229ddfd95314d858be2a6a413a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CEC/EditorExtensions/LICENSE.md using Guid(30ec229ddfd95314d858be2a6a413a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502dfabc1ab5a5071c09e187279fb319') in 0.004498 seconds
+  Import took 0.005641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001569 seconds.
+  path: Assets/CEC/EditorExtensions/SkinnedMeshRendererSaveMesh
+  artifactKey: Guid(18f94f7c9d3324d7e963bc67c4553315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CEC/EditorExtensions/SkinnedMeshRendererSaveMesh using Guid(18f94f7c9d3324d7e963bc67c4553315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8672e4f9ffacaf219221ec499b7e46f5') in 0.000853 seconds
+  Import took 0.001870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001645 seconds.
+  path: Assets/CEC/EditorExtensions/Editor/MeshFiltersCombine/MeshFiltersCombine.cs
+  artifactKey: Guid(e23666d443f7d4bb1bb0056e8780ee04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CEC/EditorExtensions/Editor/MeshFiltersCombine/MeshFiltersCombine.cs using Guid(e23666d443f7d4bb1bb0056e8780ee04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b455c1ba866dc1cf19456f8fc02557') in 0.003761 seconds
+  Import took 0.004858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002024 seconds.
+  path: Assets/CEC/EditorExtensions/Editor/Texture2DSavePNG/Texture2DSavePNG.cs
+  artifactKey: Guid(43b6e7600a3317945ab419313fb5bc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CEC/EditorExtensions/Editor/Texture2DSavePNG/Texture2DSavePNG.cs using Guid(43b6e7600a3317945ab419313fb5bc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d73fda6859264a977175c5c1ca5212') in 0.003655 seconds
+  Import took 0.004815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001532 seconds.
+  path: Assets/CEC/EditorExtensions/Editor/MeshFilterSaveMesh
+  artifactKey: Guid(739ffbc22f4124341bc8128126a2b199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CEC/EditorExtensions/Editor/MeshFilterSaveMesh using Guid(739ffbc22f4124341bc8128126a2b199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc354079c6ab7a6872692c3d87bfa0c') in 0.000938 seconds
+  Import took 0.002002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002949 seconds.
+  path: Assets/CEC/EditorExtensions/Editor/TransformCopyPasteRecursive/TransformCopyPasteRecursive.cs
+  artifactKey: Guid(dd71c20126a7a4bd79743242d5c43294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CEC/EditorExtensions/Editor/TransformCopyPasteRecursive/TransformCopyPasteRecursive.cs using Guid(dd71c20126a7a4bd79743242d5c43294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d35379962f26c2d6c2aa747061ab05b') in 0.003739 seconds
+  Import took 0.004871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001863 seconds.
+  path: Assets/CEC/EditorExtensions/Editor/SkinnedMeshRendererSaveMesh/SkinnedMeshRendererSaveMesh.cs
+  artifactKey: Guid(5f5931c61688345409da9ec19a783b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CEC/EditorExtensions/Editor/SkinnedMeshRendererSaveMesh/SkinnedMeshRendererSaveMesh.cs using Guid(5f5931c61688345409da9ec19a783b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a80b2be20d0ee4680b15132cf7802f') in 0.003875 seconds
+  Import took 0.005037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001729 seconds.
+  path: Assets/CEC/EditorExtensions/Editor/MeshFilterSaveMesh/MeshFilterSaveMesh.cs
+  artifactKey: Guid(06637f0c0f00847f2ba80ba6c7886541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CEC/EditorExtensions/Editor/MeshFilterSaveMesh/MeshFilterSaveMesh.cs using Guid(06637f0c0f00847f2ba80ba6c7886541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9342c697fbacf825d6fbbd22e22988') in 0.004030 seconds
+  Import took 0.005237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001625 seconds.
+  path: Assets/CEC/EditorExtensions/Editor
+  artifactKey: Guid(a13ffbd0681f1ef40a205889577900b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CEC/EditorExtensions/Editor using Guid(a13ffbd0681f1ef40a205889577900b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11c469728f3d538a7282f85a7dd6321') in 0.000881 seconds
+  Import took 0.001937 seconds .
+

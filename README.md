@@ -2,7 +2,7 @@ EditorExtensions
 ===============
 
 Minor editor extensions for Unity3D.  
-Updated for Unity 2019.3.3
+Updated for Unity 2020.3
 
 
 Features
@@ -20,15 +20,11 @@ Context Menus
 - Texture2D: Save as PNG.
 - SkinnedMeshRenderer: Save baked mesh.
 
-Other
-
-- Measure Gizmos: bounds and distance.
-
 
 License
 -------
 
-Copyright (C) 2017 Carl Emil Carlsen
+Copyright (C) 2017-2021 Carl Emil Carlsen
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
